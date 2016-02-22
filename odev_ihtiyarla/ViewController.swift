@@ -23,7 +23,12 @@ class ViewController: UIViewController {
         }
     }
     @IBOutlet weak var yil: UILabel!
+
+    
+    @IBOutlet weak var ay: UILabel!
     @IBOutlet weak var gun: UILabel!
+    @IBOutlet weak var saat: UILabel!
+    @IBOutlet weak var nanosaniye: UILabel!
     
     var timer = NSTimer()
     var counter:Int = 0
@@ -41,14 +46,18 @@ class ViewController: UIViewController {
         
         let diffDateComponents = NSCalendar.currentCalendar().components([NSCalendarUnit.Year, NSCalendarUnit.Month, NSCalendarUnit.Day, NSCalendarUnit.Hour, NSCalendarUnit.Minute, NSCalendarUnit.Second, NSCalendarUnit.Nanosecond], fromDate: nzm_birthday, toDate: bugun, options: NSCalendarOptions.init(rawValue: 0))
         
-        yil.text=String(diffDateComponents.year)
-        gun.text="."+String(diffDateComponents.month)+String(diffDateComponents.day)+String(diffDateComponents.hour)+String(diffDateComponents.minute)+String(diffDateComponents.second)
-        
+        yil.text    = String(diffDateComponents.year)
+        ay.text     = String(diffDateComponents.month)
+        gun.text    = String(diffDateComponents.day)
+        saat.text   = String(diffDateComponents.hour)+":"+String(diffDateComponents.minute)+":"+String(diffDateComponents.second)
+        nanosaniye.text = String(diffDateComponents.nanosecond)
+    
+        /*
         let str = String(diffDateComponents.nanosecond)
         let yazi:String = "\(str[str.startIndex.advancedBy(0)])\(str[str.startIndex.advancedBy(1)])\(str[str.startIndex.advancedBy(2)])"
         
         gun.text="."+String(diffDateComponents.month)+String(diffDateComponents.day)+String(diffDateComponents.hour)+String(diffDateComponents.minute)+String(diffDateComponents.second)+yazi
-        
+        */
         
         
     }
