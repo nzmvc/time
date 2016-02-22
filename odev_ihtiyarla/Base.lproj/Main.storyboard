@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-1417577097439-425fb7dec05e.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="x9f-YY-nay">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="photo-1417577097439-425fb7dec05e.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="x9f-YY-nay">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <gestureRecognizers/>
                                 <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
@@ -28,7 +28,7 @@
                                     <outletCollection property="gestureRecognizers" destination="nC5-QW-QRX" appends="YES" id="0aC-wO-B85"/>
                                 </connections>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="39" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYc-PV-jxB">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="39" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYc-PV-jxB">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="70"/>
                                 <color key="textColor" red="0.83870192307692304" green="0.83870192307692304" blue="0.83870192307692304" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,7 +40,7 @@
                                     <rect key="frame" x="14" y="351" width="94" height="90"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIv-wZ-g9c">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIv-wZ-g9c">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="DUR"/>
                                 <variation key="widthClass=compact" misplaced="YES">
@@ -53,13 +53,97 @@
                                     <action selector="bas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5y-eH-JTt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=".1233345456" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-EG-Gt7">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="123456789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bw-EG-Gt7">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="28"/>
                                 <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="90" y="398" width="230" height="41"/>
+                                    <rect key="frame" x="5" y="433" width="230" height="41"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-VR-7qu">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="28"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="377" width="40" height="29"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfR-6V-KMa">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="381" width="30" height="27"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIP-jG-Xu4">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="28"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="174" y="377" width="40" height="29"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Gün" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAh-Dc-ee0">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="216" y="381" width="46" height="27"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Saat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-sJ-epP">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="243" y="411" width="57" height="27"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="12:12:12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoF-jA-OMx">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="28"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="407" width="141" height="29"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="376" width="207" height="65"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Nanosaniye" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lV-Gt-vDX">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
+                                <color key="textColor" red="0.83870192310000002" green="0.83870192310000002" blue="0.83870192310000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="178" y="442" width="122" height="27"/>
                                 </variation>
                                 <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="104" y="376" width="207" height="65"/>
@@ -68,7 +152,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1Bw-EG-Gt7" firstAttribute="centerY" secondItem="RYc-PV-jxB" secondAttribute="centerY" constant="15" id="19E-zi-nDx"/>
+                            <constraint firstItem="1Bw-EG-Gt7" firstAttribute="centerY" secondItem="RYc-PV-jxB" secondAttribute="centerY" constant="15" id="19E-zi-nDx">
+                                <variation key="widthClass=compact" constant="48.5"/>
+                            </constraint>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="x9f-YY-nay" secondAttribute="bottom" id="EQR-y4-mKQ"/>
                             <constraint firstItem="cIv-wZ-g9c" firstAttribute="centerX" secondItem="x9f-YY-nay" secondAttribute="centerX" id="GMy-Gd-WNp"/>
                             <constraint firstItem="RYc-PV-jxB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" priority="250" constant="100" id="ana-ud-hmF">
@@ -79,10 +165,21 @@
                             <constraint firstItem="x9f-YY-nay" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="bhB-Q8-11G"/>
                             <constraint firstAttribute="trailingMargin" secondItem="x9f-YY-nay" secondAttribute="trailing" constant="-20" id="g4F-CC-rkp"/>
                             <constraint firstItem="x9f-YY-nay" firstAttribute="top" secondItem="cIv-wZ-g9c" secondAttribute="bottom" constant="-46" id="iIl-bZ-rGd"/>
-                            <constraint firstItem="1Bw-EG-Gt7" firstAttribute="leading" secondItem="RYc-PV-jxB" secondAttribute="trailing" constant="-5" id="iS9-M5-4gK"/>
+                            <constraint firstItem="1Bw-EG-Gt7" firstAttribute="leading" secondItem="RYc-PV-jxB" secondAttribute="trailing" constant="-5" id="iS9-M5-4gK">
+                                <variation key="widthClass=compact" constant="-90"/>
+                            </constraint>
                             <constraint firstItem="x9f-YY-nay" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xCC-qj-a2P"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Wgu-VR-7qu"/>
+                                <exclude reference="kfR-6V-KMa"/>
+                                <exclude reference="yIP-jG-Xu4"/>
+                                <exclude reference="wAh-Dc-ee0"/>
+                                <exclude reference="fgX-sJ-epP"/>
+                                <exclude reference="aoF-jA-OMx"/>
+                                <exclude reference="0lV-Gt-vDX"/>
+                            </mask>
                             <mask key="constraints">
                                 <exclude reference="aoQ-ud-vxM"/>
                                 <exclude reference="bhB-Q8-11G"/>
@@ -90,13 +187,22 @@
                                 <exclude reference="iIl-bZ-rGd"/>
                                 <exclude reference="xCC-qj-a2P"/>
                                 <exclude reference="GMy-Gd-WNp"/>
-                                <exclude reference="ana-ud-hmF"/>
                                 <exclude reference="19E-zi-nDx"/>
                                 <exclude reference="iS9-M5-4gK"/>
+                                <exclude reference="ana-ud-hmF"/>
                                 <exclude reference="EQR-y4-mKQ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Wgu-VR-7qu"/>
+                                <include reference="kfR-6V-KMa"/>
+                                <include reference="yIP-jG-Xu4"/>
+                                <include reference="wAh-Dc-ee0"/>
+                                <include reference="fgX-sJ-epP"/>
+                                <include reference="aoF-jA-OMx"/>
+                                <include reference="0lV-Gt-vDX"/>
+                            </mask>
                             <mask key="constraints">
                                 <include reference="aoQ-ud-vxM"/>
                                 <include reference="bhB-Q8-11G"/>
@@ -104,9 +210,9 @@
                                 <include reference="iIl-bZ-rGd"/>
                                 <include reference="xCC-qj-a2P"/>
                                 <include reference="GMy-Gd-WNp"/>
-                                <include reference="ana-ud-hmF"/>
                                 <include reference="19E-zi-nDx"/>
                                 <include reference="iS9-M5-4gK"/>
+                                <include reference="ana-ud-hmF"/>
                                 <include reference="EQR-y4-mKQ"/>
                             </mask>
                         </variation>
